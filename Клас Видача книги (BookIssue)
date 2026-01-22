@@ -1,0 +1,29 @@
+public class BookIssue {
+    private User user;
+    private Book book;
+    private String issueDate;
+
+    public BookIssue() {
+    }
+
+    public BookIssue(User user, Book book, String issueDate) {
+        this.user = user;
+        this.book = book;
+        this.issueDate = issueDate;
+    }
+
+    public void issueBook() {
+    }
+
+    public void returnBook() {
+    }
+
+    @Override
+    public String toString() {
+        return "BookIssue{" +
+                "user=" + user +
+                ", book=" + book +
+                ", issueDate='" + issueDate + '\'' +
+                '}';
+    }
+}
