@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        Author author = new Author("George Orwell", "UK");
+        Book book = new Book("1984", author, "123456789", 1949);
+        User user = new User(1, "Ivan", "ivan@mail.com");
+        Librarian librarian = new Librarian(1, "Anna", "Admin");
+        Catalog catalog = new Catalog("Main catalog");
+        BookIssue issue = new BookIssue(user, book, "2026-01-22");
+        ElectronicResource resource = new ElectronicResource("Java Book", "https://example.com", "PDF");
+
+        System.out.println(author);
+        System.out.println(book);
+        System.out.println(user);
+        System.out.println(librarian);
+        System.out.println(catalog);
+        System.out.println(issue);
+        System.out.println(resource);
+    }
+}
