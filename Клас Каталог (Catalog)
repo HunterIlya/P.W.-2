@@ -1,0 +1,23 @@
+public class Catalog {
+    private String name;
+
+    public Catalog() {
+    }
+
+    public Catalog(String name) {
+        this.name = name;
+    }
+
+    public void addItem() {
+    }
+
+    public void removeItem() {
+    }
+
+    @Override
+    public String toString() {
+        return "Catalog{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}
