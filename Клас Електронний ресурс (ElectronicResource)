@@ -1,0 +1,26 @@
+public class ElectronicResource {
+    private String title;
+    private String url;
+    private String format;
+
+    public ElectronicResource() {
+    }
+
+    public ElectronicResource(String title, String url, String format) {
+        this.title = title;
+        this.url = url;
+        this.format = format;
+    }
+
+    public void openResource() {
+    }
+
+    @Override
+    public String toString() {
+        return "ElectronicResource{" +
+                "title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                ", format='" + format + '\'' +
+                '}';
+    }
+}
