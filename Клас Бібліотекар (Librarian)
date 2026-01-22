@@ -1,0 +1,29 @@
+public class Librarian {
+    private int id;
+    private String name;
+    private String position;
+
+    public Librarian() {
+    }
+
+    public Librarian(int id, String name, String position) {
+        this.id = id;
+        this.name = name;
+        this.position = position;
+    }
+
+    public void addBook() {
+    }
+
+    public void removeBook() {
+    }
+
+    @Override
+    public String toString() {
+        return "Librarian{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                '}';
+    }
+}
